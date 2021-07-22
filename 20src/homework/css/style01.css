@@ -1,0 +1,158 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+.container{
+	position:relative;
+}
+.nav{
+	background-color:#459df5;
+	position:relative;
+}
+
+.rightLi{
+	float:right;
+}
+.poster{
+	position:relative;
+	background-color:#34415f;
+}
+.posterColor{
+	left:10%;
+	position:absolute;
+	background: radial-gradient(circle,transparent 20%,transparent 20%, #34415f 60%);
+}
+.poster .text{
+	position:absolute;
+	left:7%;
+}
+.poster .text .logo{
+	position:absolute;
+	left:-50px;
+}
+.text h1{
+	position:relative;
+	font-weight:400;
+}
+.text .introduction{
+	position:relative;
+	
+}
+.nav{
+	height:44px;
+}
+.li{
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	margin:0px 20px;
+	line-height:40px;
+}
+.rightLi{
+	border-left:1px solid blue;
+}
+.posterColor{
+	width:90%;
+	height:480px;
+}
+
+.poster{
+	height:480px;
+	background-image:url("../images/bg1.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+.poster .text .logo{
+	width:47px;
+	height:95px;
+	background:url("../images/logo.png");
+}
+
+.poster .text{
+	color:white;
+}
+
+.text h1{
+	font-size:42px;
+	line-height:1.15;
+}
+
+.text .introduction{
+	width:580px;
+	line-height:24px;
+	font-size: 14px;
+	text-indent:24px;
+	padding-bottom:10px;
+	border-bottom:1px solid white;
+	
+}
+.text .bdLogo{
+	position:relative;
+}
+.hyperlink{
+	position:relative;
+	top:-100px;
+}
+.list{
+	float: left;
+	background:#fdfdfd;
+	margin-left:5%;
+}
+.list h2{
+	float:left;
+	font-weight:400;
+}
+.list .ol{
+	float:left;
+}
+.list .l2{
+	color:#333;
+	list-style-type:square;
+}
+.list .l1,.list .l1 a{
+	color:#136ec2;
+	text-decoration:none;
+}
+
+.text .bdLogo{
+	width:84px;
+	height:20px;
+	margin:9px 0 15px;
+	background:url("../images/logoSmall.png") no-repeat;
+	background-size:contain;
+}
+.text .video img{
+	 width:240px;
+	 height:135px;
+}
+.hyperlink{
+	text-align:center;
+}
+.list .l2{
+	font-size:12px;
+}
+.list .ol div {
+	padding:8px;
+}
+.list h2{
+	margin:22px 0 0 20px;
+	width:62px;
+	height:48px;
+	text-align:center;
+	font-size:18px;
+	line-height:48px;
+}
+
+/*在下方写你的代码：为class名为list的div设置上、下边框为 1px solid lightgray  */
+
+
+
+/*在下方写你的代码：为class名为ol的div设置样式：
+ * 内边距上下为10px；左右为50px；
+ * 背景颜色为白色；
+ * 左边框为 1px solid lightgray；
+ * 
+ *   */
+
+
